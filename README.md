@@ -108,3 +108,6 @@ The factor (1 − p)^γ also shrinks gradients on examples the model already cla
 α and γ are applied together. The rare class is both up-weighted and further emphasized whenever the model is unsure. On these tables the combination overshoots: specificity drops by about 0.23 while recall gains about 0.02. The extra minority predictions are mostly false positives.
 
 The practical conclusion is that focal loss, as used in RetinaNet, is not a drop-in repair for class imbalance in a linear model. On this collection the unweighted cross-entropy logistic regression is the stronger of the two, and the gap shows up on both mildly and severely imbalanced datasets.
+
+
+## Project created with @kasiakk216
